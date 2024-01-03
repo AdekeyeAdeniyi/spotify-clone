@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spotify-clone (Fullstack Web Application)
+
+Spotify-clone is a web-based application aimed at providing a comprehensive understanding of building and integrating various frontend and backend technologies. It replicates the popular Spotify platform and utilizes the following powerful frameworks and libraries:
+
+-   Next.js 14
+-   React
+-   Supabase
+-   PostgreSQL
+-   TailwindCSS
+-   Stripe
+-   And more...
+
+## Table of Contents
+
+-   [Spotify-clone (Fullstack Web Application)](#spotify-clone-fullstack-web-application)
+    -   [Table of Contents](#table-of-contents)
+    -   [Purpose](#purpose)
+    -   [Audience](#audience)
+    -   [Prerequisites](#prerequisites)
+    -   [Features](#features)
+    -   [Getting Started](#getting-started)
+    -   [License](#license)
+    -   [Contributing](#contributing)
+
+## Purpose
+
+The purpose of this project is to gain a comprehensive understanding of building and integrating several frontend and backend technologies. By replicating Spotify's functionalities, you will learn how to work with Next.js, Supabase, PostgreSQL, Tailwindcss, and other libraries and frameworks.
+
+## Audience
+
+This project is intended for personal use and serves as a learning exercise. It can be a valuable resource for developers looking to enhance their skills in web development and real-time applications.
+
+## Prerequisites
+
+Before getting started, make sure you have the following prerequisites:
+
+-   Node.js
+-   NPM (Node Package Manager)
+
+## Features
+
+Spotify-clone includes a range of features, including but not limited to:
+
+-   Real-time audo listening
+-   Advance User authentication
+-   Premium subscription features
+-   Audio Upload
+-   And more..
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the project repository:
+    ```md
+    git clone https://github.com/AdekeyeAdeniyi/spotify-clone.git
+    ```
+2. Change to the project directory:
+    ```md
+    cd ./spotify-clone
+    ```
+3. Install project dependencies:
+    ```md
+    npm install
+    ```
+4. Start the development server:
+    ```md
+    npm run dev
+    ```
+    This will launch the application locally, allowing you to explore its features.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## License
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is licensed under the MIT License. See the [MIT License](LICENSE) file for details.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you'd like to contribute to this project, please refer to the [CONTRIBUTING](./contributing.md) guidelines.
